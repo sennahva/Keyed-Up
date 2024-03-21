@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    font-family: 'VT323', 'Gill Sans MT';
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+    display: none;
+}
+
+h2 {
+    margin: 1em auto
+}
+
+.endscreen {
+    width: 1600px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+}
+
+.endscreen img {
+    width: 1600px;
+    height: 900px;
+}
+
+.endscreen button {
+    padding: 5em 19em 5em 19em;
+    border: none;
+    background-color: rgb(255, 239, 90, 0);
+    margin: 0;
+    position: absolute;
+    top: 38.5em;
+}
+
+.endscreen p {
+    position: absolute; 
+    top: 10.4em;
+    font-size: 3em;
+}
+
+.endscreen h2 {
+    margin: 0;
+    position: absolute; 
+    top: 0.5em;
+    font-size: 16em;
+    color: rgb(255, 239, 90);
+}
+
+.speelopnieuw {
+    display: none;
+}
